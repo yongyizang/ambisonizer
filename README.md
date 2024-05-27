@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ### Run Inference
-We provide the example embedding [here](https://drive.google.com/file/d/1S9VPkvPs0LI3oZzZRwoeLmdbm6BJpUph/view?usp=sharing). Once this file is downloaded, you can use the `model_inference_test.ipynb` to run inference using the model.
+We provide the example embedding [here](https://drive.google.com/file/d/1S9VPkvPs0LI3oZzZRwoeLmdbm6BJpUph/view?usp=sharing). Once this file is downloaded, you can use the `inference.ipynb` to run inference using the model.
 
 Note that the inference result will be W, X and Y channels of the first-order Ambisonic B-format. We provide a simple script in `synthesize.ipynb` to help you convert the ambisonic signals to stereo signals given two azimuth angles. Feel free to adjust it to your needs.
 
